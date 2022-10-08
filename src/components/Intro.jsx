@@ -4,7 +4,7 @@ import myImg from "../assets/myPhoto.jpg";
 
 function Intro(){
     return(
-        <section className="bg-black pt-16 pb-[150px] md:flex my-10 w-screen">
+        <section id="home" className="bg-black pt-16 pb-[150px] md:flex my-10 w-screen">
         <Image
         link={myImg}
         alternative="myimg"

@@ -6,6 +6,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+a img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  margin-right: 10px;
+  border-width: 5px;
+  border-color: black;
+  background: #000;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
 }
 
 code {
@@ -26,4 +46,5 @@ code {
     @apply text-black border bg-primary
      hover:bg-black hover:border-primary hover:text-primary
   }
+  
 }

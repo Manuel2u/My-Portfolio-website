@@ -15,7 +15,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#00FFE1'
+        primary: '#00FFE1',
+        secondary:'#898989',
+        tertiary:'#28365f',
+        deep:'#2b55cc',
+        darktxt:'#848db3',
+        darkBlue: '#151a33'
       },
       fontFamily : {
         dodoo : ['Sacramento']
