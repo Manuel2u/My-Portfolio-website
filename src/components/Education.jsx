@@ -5,7 +5,7 @@ function Education(){
     return(
         <div className="bg-darkBlue pb-24">
         <div className="text-center py-16">
-        <h3 className="text-white font-bold pb-4 text-3xl">My<span className="text-primary">Education</span></h3>
+        <h3 className="text-white font-bold pb-4 text-3xl">My<span className="text-primary"> Education</span></h3>
         <p className="text-white">About my education and qualification that I have</p>
         </div>
         <div className="md:flex px-16 mt-6">
@@ -25,8 +25,8 @@ function Education(){
          I was the Class Prefect of my class in the year 2020 till completion.
          </p>
          <h3 className="text-deep  font-medium">Tertiary Education</h3>
-         <p className="text-darktxt">Currently I am a class 12 student from Methodist School Dankuni
-         .I had passed my 10th Board Exam in CISE Board from Methodist School with 92.3% marks in 2019
+         <p className="text-darktxt">Currently I am a First Year student of the University of Ghana Legon studying  Physics and Computer Science.
+         .I am a member of the Huawei ICT Academy Club. I was a Course Rep for Academic Writing 1, showed True Leadership Skills.
          </p>
          </div>
         </div>
