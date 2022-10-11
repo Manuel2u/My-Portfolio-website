@@ -4,7 +4,7 @@ import Image from "./Image";
 
 function Card(props){
     return(
-        <div className="bg-white hover:text-white hover:bg-black w-[383px] h-[256.19px]  p-6 mb-10">
+        <div className="bg-white mx-7 hover:text-white hover:bg-black w-[383px] h-[256.19px]  p-6 my-10">
         <div className="flex justify-center">
         <Image
         height="100px"

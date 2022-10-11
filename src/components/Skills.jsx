@@ -6,9 +6,9 @@ function Skills(){
         <div className="bg-white pt-[100px]">
         <div className="bg-skills">
         <h3 className="text-primary font-bold text-center text-3xl">My<span className="text-black"> Skills</span></h3>
-        <p className="text-center text-secondary pt-7 pb-16">Tools and programming languages that I use for development and making projects</p>
+        <p className="text-center text-secondary  pt-7 pb-16">Tools and programming languages that I use for development and making projects</p>
         </div>
-        <div className="flex flex-row flex-wrap justify-between bg-skills" >
+        <div className="flex flex-row flex-wrap justify-between  bg-skills" >
         <Card
         title="HTML"
         description="I have a good understanding of HTML and I can make a website using HTML"
