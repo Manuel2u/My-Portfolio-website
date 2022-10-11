@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Intro from "./Intro";
 import About from "./About";
 import Education from "./Education";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
    </section>
    <About />
    <Education />
+   <Skills />
    </div>
   );
 }

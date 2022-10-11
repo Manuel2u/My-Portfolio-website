@@ -20,7 +20,8 @@ module.exports = {
         tertiary:'#28365f',
         deep:'#2b55cc',
         darktxt:'#848db3',
-        darkBlue: '#151a33'
+        darkBlue: '#151a33',
+        skills:'#F2F2F2'
       },
       fontFamily : {
         dodoo : ['Sacramento']
