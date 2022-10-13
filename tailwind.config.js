@@ -21,7 +21,8 @@ module.exports = {
         deep:'#2b55cc',
         darktxt:'#848db3',
         darkBlue: '#151a33',
-        skills:'#F2F2F2'
+        skills:'#F2F2F2',
+        projects:"#161616"
       },
       fontFamily : {
         dodoo : ['Sacramento']
