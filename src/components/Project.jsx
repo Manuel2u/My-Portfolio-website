@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "./Image";
 import GoogleKeepclone from "../assets/GoogleKeepclone.jpg";
-// import todolist from "../assets/todolist.png";
 import Carousel from "./Carousel";
 
 function Project(){
