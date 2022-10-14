@@ -64,7 +64,7 @@ function Project(){
             className="mx-16 mr-5"
              />
             <div className="md:block ml-5">
-             <h3 className="text-deep text-left font-bold  text-3xl pb-5">Google Keep Clone</h3>
+             <h3 className="text-deep text-left font-bold  text-3xl pb-5">Snake Game</h3>
              <p className="text-left text-secondary w-[70%]">
                 lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 lorem ipsum dolor sit amet, consectetur adipiscing elit.
