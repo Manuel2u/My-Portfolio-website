@@ -1,14 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import todolist from "../assets/todolist.png";
-import todolist1 from "../assets/todolist1.png";
-import todolist2 from "../assets/todolist2.png";
-
-const featuredProducts = [todolist, todolist1, todolist2];
 
 let count = 0;
 let slideInterval;
 
 function Slider(props) {
+  const featuredProducts = [props.img1, props.img2, props.img3];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slideRef = useRef();

@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import postmansvg from "../assets/postmansvg.svg";
 
 function Skills(){
     return(
@@ -82,7 +83,7 @@ function Skills(){
             <Card
         title="Postman"
         description="I use this for making API's and testing them."
-        link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSI0YnE26L3U3cAgwD9XkJT_8iWcln6tVh8cz2EyeAg&s"
+        link={postmansvg}
             />
         </div> 
         </div>

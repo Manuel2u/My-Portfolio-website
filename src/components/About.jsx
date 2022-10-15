@@ -24,17 +24,17 @@ function About(){
         </p>
         
         <div className="md:flex py-2  mt-5">
-            <a target="_blank" rel="noreferrer" href="https://github.com/Manuel2u">
-                <img alt="github" src="https://rishavchanda.github.io/images/github.svg"></img>
+            <a target="_blank" className="a" rel="noreferrer" href="https://github.com/Manuel2u">
+                <img className="img" alt="github" src="https://rishavchanda.github.io/images/github.svg"></img>
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/Manuel2u">
-                <img alt="facebook" src="https://rishavchanda.github.io/images/facebook.svg"></img>
+            <a target="_blank"  className="a" rel="noreferrer" href="https://web.facebook.com/emmanuel.oforiboakye.9/">
+                <img className="img" alt="facebook" src="https://rishavchanda.github.io/images/facebook.svg"></img>
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/Manuel2u">
-                <img alt="twitter" src="https://rishavchanda.github.io/images/twitter.svg"></img>
+            <a target="_blank" className="a" rel="noreferrer" href="https://twitter.com/manuel___dev">
+                <img className="img" alt="twitter" src="https://rishavchanda.github.io/images/twitter.svg"></img>
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/Manuel2u">
-                <img alt="IG" src="https://rishavchanda.github.io/images/instagram.svg"></img>
+            <a target="_blank" className="a" rel="noreferrer" href="https://www.instagram.com/manuel__dev/">
+                <img className="img" alt="IG" src="https://rishavchanda.github.io/images/instagram.svg"></img>
             </a>
             
         </div>

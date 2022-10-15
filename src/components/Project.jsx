@@ -1,7 +1,13 @@
 import React from "react";
 import Image from "./Image";
+import todolist from "../assets/todolist.png";
+import todolist1 from "../assets/todolist1.png";
+import todolist2 from "../assets/todolist2.png";
 import GoogleKeepclone from "../assets/GoogleKeepclone.jpg";
 import Carousel from "./Carousel";
+import snake1 from "../assets/snake1.png";
+import snake2 from "../assets/snake2.png";
+import snake3 from "../assets/snake3.png";
 
 function Project(){
     return(
@@ -48,6 +54,9 @@ function Project(){
             </div>
             </div>
             <Carousel
+            img1 = {todolist}
+            img2 = {todolist1}
+            img3 = {todolist2}
             alternative="Project 1"
             className="ml-8"
              />
@@ -55,12 +64,12 @@ function Project(){
         </div>
 
         <div className="md:flex pb-32">
-            <Image
-            link={GoogleKeepclone}
-            height="500px"
-            width="500px"
+        <Carousel
+            img1 = {snake1}
+            img2 = {snake2}
+            img3 = {snake3}
             alternative="Project 1"
-            className="mx-16 mr-5"
+            className="ml-8"
              />
             <div className="md:block ml-5">
              <h3 className="text-deep text-left font-bold  text-3xl pb-5">Snake Game</h3>
