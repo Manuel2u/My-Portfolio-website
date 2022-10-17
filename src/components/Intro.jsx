@@ -22,8 +22,10 @@ function Intro(){
          Also I push myself by learning new things and taking up challenges.
          </p>
          <div className="md:flex pr-4">
+         <a target="_blank" className="a" rel="noreferrer" href="https://drive.google.com/file/d/1C18YogGxhLc1CUdsCMEdSHVaOzFOX39x/view?usp=sharing">
                 <button className="px-6 py-3 text-[16px] font-sans font-bold bg-black
                  text-primary border-primary hover:bg-primary  hover:text-black">Check Resume</button>
+         </a>
             </div>
          </div>
         </section>

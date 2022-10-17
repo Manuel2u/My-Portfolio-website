@@ -34,7 +34,9 @@ function Project(){
              </p>
             
             <div className="md:flex my-5 pr-4">
+            <a href="https://github.com/Manuel2u/Google-Keep-CLone" target="_blank" rel="noreferrer">
                 <button className="border-secondary border-2 px-6 py-3 text-[16px] font-sans font-bold">View Code</button>
+            </a>
             </div>
             </div>
         </div>
@@ -50,7 +52,9 @@ function Project(){
              </p>
             
             <div className="md:flex my-5 pr-4">
+            <a href="https://github.com/Manuel2u/To-Do-List" rel="noreferrer" target="_blank">
                 <button className="border-secondary border-2 px-6 py-3 text-[16px] font-sans font-bold">View Code</button>
+            </a>
             </div>
             </div>
             <Carousel
@@ -80,7 +84,9 @@ function Project(){
              </p>
             
             <div className="md:flex my-5 pr-4">
+            <a href="https://github.com/Manuel2u/Snake-Game" rel="noreferrer" target="_blank">
                 <button className="border-secondary border-2 px-6 py-3 text-[16px] font-sans font-bold">View Code</button>
+            </a>
             </div>
             </div>
         </div>

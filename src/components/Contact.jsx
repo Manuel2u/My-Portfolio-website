@@ -10,7 +10,7 @@ function Contact() {
         </div>
         <div className="md:flex justify-around pb mx-24">
 
-        <div className="md:block text-center">
+        <div className="md:flex flex-col text-center">
         <Image
         link="https://rishavchanda.github.io/images/phone.svg"
         height="100px"
@@ -24,31 +24,33 @@ function Contact() {
          </div>
          </div>
 
-         <div className="md:block text-center">
+         <div className="md:flex flex-col justify-items-center text-center">
         <Image
         link="https://rishavchanda.github.io/images/gmail.svg"
         height="100px"
         width="100px"
         alternative="gmail"
-        className=""
+        className="ml-10"
          />
-         <div className="md:block pt-14 text-center">
+         <div className="md:flex flex-col justify-center mr-10 pt-14 text-center">
             <h3 className="text-black text-center font-bold  text-[25px]">Email Me At</h3>
             <p className="text-[13.8px] text-center">emmanueldodoo94@gmail.com</p>
          </div>
          </div>
 
-         <div className="md:block text-center">
+         <div className="md:flex flex-col text-center">
+         <div className="">
         <Image
         link="https://rishavchanda.github.io/images/office.svg"
         height="100px"
         width="100px"
         alternative="office"
-        className=""
+        className="ml-8"
          />
+         </div>
          <div className="md:block pt-14">
             <h3 className="text-black text-center font-bold  text-[25px]">Visit Me At</h3>
-            <p className="text-[13.8px] text-center">+233241489576</p>
+            <p className="text-[13.8px] text-center">Dome Pillar 2, Accra-Ghana</p>
          </div>
          </div>
         </div>
