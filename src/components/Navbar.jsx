@@ -4,7 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function Navbar(){
     return (
-        <nav className="bg-black relative text-cyan-50 drop-shadow-lg pt-12 w-screen h-[80px]">
+        <nav className="bg-black relative text-cyan-50 drop-shadow-lg pt-12 w-screen h-[80px] z-10">
         <div className="px-2 flex justify-between  items-center w-full h-full">
             <div className="flex items-center pl-7">
             <h1 className="font-bold text-4xl font-dodoo hidden md:flex mr-4">Manuel.Dev</h1>
@@ -30,7 +30,7 @@ function Navbar(){
             </div>
 
             <div className="md:hidden relative">
-            <div className="md:hidden pr-7 bg-white text-left w-[60%] pb-[400px] fixed top-0 left-0">
+            <div className="md:hidden pr-7 bg-white text-left w-[60%] pb-[400px] fixed inset-y-0 left-0 z-50 shadow">
             <CloseIcon className="text-black absolute right-4 top-5 w-5 "/>
             <ul className="pt-16 pl-3">
                 <li className="text-black"><a className="hover:text-primary visited:text-black" href="#home">HOME</a></li>
