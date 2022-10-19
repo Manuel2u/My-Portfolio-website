@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 function Navbar() {
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
+    const handleMobileMenu = () => setClick(false);
+
     return (
         <>
             <nav className="bg-black relative text-cyan-50 drop-shadow-lg pt-12 w-screen h-[80px] z-10">
@@ -26,14 +31,14 @@ function Navbar() {
                     </div>
 
                     <div className="md:hidden pr-5">
-                        <MenuIcon className="w-5" />
+                        <MenuIcon onClick={handleMobileMenu} className="w-5" />
                     </div>
                 </div>
             </nav>
 
-            <div className="md:hidden fixed inset-y-0 z-50 shadow w-[60%]">
-                <div className="md:hidden  bg-white text-left  h-screen  ">
-                    <CloseIcon className="text-black absolute right-4 top-5 w-5 " />
+            <div className={click ? "hidden" : "md:hidden fixed inset-y-0 z-50 shadow w-[60%]"}>
+                <div className={click ? "hidden" : "md:hidden bg-white text-left  h-screen"}>
+                    <CloseIcon onClick={handleClick} className="text-black absolute right-4 top-5 w-5 " />
                     <ul className="pt-16 pl-3">
                         <li className="text-black"><a className="hover:text-primary visited:text-black" href="#home">HOME</a></li>
                         <li className="text-white"><a className="hover:text-primary visited:text-black" href="#about">ABOUT</a></li>
