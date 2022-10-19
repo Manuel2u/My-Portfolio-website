@@ -11,17 +11,17 @@ import Social from "./Social";
 function App() {
   return (
     <div>
-    <section className="bg-black">
-   <Navbar />
-   <Intro />
-   </section>
-   <About />
-   <Education />
-   <Skills />
-   <Project />
-   <Contact />
-   <Social />
-   </div>
+      <section className="bg-black">
+        <Navbar />
+        <Intro />
+      </section>
+      <About />
+      <Education />
+      <Skills />
+      <Project />
+      <Contact />
+      <Social />
+    </div>
   );
 }
 
