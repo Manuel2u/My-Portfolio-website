@@ -36,9 +36,9 @@ function Navbar() {
                 </div>
             </nav>
 
-            <div className={!click ? "hidden" : "md:hidden fixed inset-y-0 z-50 shadow w-[60%]"}>
+            <div className={!click ? "-translate-x-full ease-in-out duration-700  md:hidden fixed inset-y-0 z-50 shadow w-[60%]" : "-translate-x-0 ease-in-out duration-700 md:hidden fixed inset-y-0 z-50 shadow w-[60%]"}>
                 <div className={"md:hidden bg-white text-left  h-screen"}>
-                    <CloseIcon onClick={handleClick} className="text-black absolute right-4 top-5 w-5 " />
+                    <CloseIcon onClick={handleClick} className="text-black absolute right-4 top-5 w-5}" />
                     <ul className="pt-16 pl-3">
                         <li className="text-black"><a className="hover:text-primary visited:text-black" href="#home">HOME</a></li>
                         <li className="text-white"><a className="hover:text-primary visited:text-black" href="#about">ABOUT</a></li>
