@@ -3,7 +3,7 @@ import Image from "./Image";
 
 function Contact() {
     return (
-        <div className="bg-white md:pb-56 sm:pb-32 pt-16">
+        <div id="contact" className="bg-white md:pb-56 sm:pb-32 pt-16">
             <div className="text-center text-black">
                 <h1 className="font-bold  text-3xl pt-14">Contact<span className="text-primary">Me</span></h1>
                 <p className="pt-7 pb-16 md:mx-0 sm:mx-auto md:w-[100%] sm:w-[70%] text-secondary">My contact details are given below you can also follow me</p>

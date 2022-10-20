@@ -4,7 +4,7 @@ import postmansvg from "../assets/postmansvg.svg";
 
 function Skills() {
     return (
-        <div className="bg-white sm:pt-[0px] md:pt-[100px]">
+        <div id="skills" className="bg-white sm:pt-[0px] md:pt-[100px]">
             <div className="bg-skills">
                 <h3 className="text-primary font-bold text-center text-3xl pt-14">My<span className="text-black"> Skills</span></h3>
                 <p className="text-center text-secondary  pt-7 pb-16">Tools and programming languages that I use for development and making projects</p>

@@ -11,7 +11,7 @@ import snake3 from "../assets/snake3.png";
 
 function Project() {
     return (
-        <div className="bg-projects pb-32">
+        <div id="projects" className="bg-projects pb-32">
             <div className="text-center text-white">
                 <h1 className="font-bold  text-3xl pt-14"><span className="text-primary">My</span> Projects</h1>
                 <p className="pt-7 pb-16">Some of my projects in which I had worked and developed are shown below</p>
