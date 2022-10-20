@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-website/static/css/main.61badf34.css",
-    "main.js": "/My-Portfolio-website/static/js/main.df7dc816.js",
-    "static/media/myPhoto.jpg": "/My-Portfolio-website/static/media/myPhoto.cf03828077518af0e220.jpg",
-    "static/media/GoogleKeepclone.jpg": "/My-Portfolio-website/static/media/GoogleKeepclone.560dc5a2f9ea28dfbb34.jpg",
-    "static/media/todolist.png": "/My-Portfolio-website/static/media/todolist.aad01b48107e5a29b1d0.png",
-    "static/media/todolist2.png": "/My-Portfolio-website/static/media/todolist2.da894692f6e9dffffbd8.png",
-    "static/media/snake1.png": "/My-Portfolio-website/static/media/snake1.9278d9167a56f51da4b8.png",
-    "static/media/todolist1.png": "/My-Portfolio-website/static/media/todolist1.3fd1a1c509ecaa01f15f.png",
-    "static/media/snake2.png": "/My-Portfolio-website/static/media/snake2.3241942b1476f7444c55.png",
-    "static/media/snake3.png": "/My-Portfolio-website/static/media/snake3.25607ec166752231948d.png",
-    "static/media/postmansvg.svg": "/My-Portfolio-website/static/media/postmansvg.648705b5f6469f0767a4736d07313ffe.svg",
-    "static/media/discord.svg": "/My-Portfolio-website/static/media/discord.27583b533952833679e4badca4e9e2a4.svg",
-    "static/media/linkdln.svg": "/My-Portfolio-website/static/media/linkdln.7defd339fd92d3e5fa034b24a5f10ed6.svg",
-    "index.html": "/My-Portfolio-website/index.html",
-    "main.61badf34.css.map": "/My-Portfolio-website/static/css/main.61badf34.css.map",
-    "main.df7dc816.js.map": "/My-Portfolio-website/static/js/main.df7dc816.js.map"
+    "main.css": "/static/css/main.61badf34.css",
+    "main.js": "/static/js/main.791fe949.js",
+    "static/media/myPhoto.jpg": "/static/media/myPhoto.cf03828077518af0e220.jpg",
+    "static/media/GoogleKeepclone.jpg": "/static/media/GoogleKeepclone.560dc5a2f9ea28dfbb34.jpg",
+    "static/media/todolist.png": "/static/media/todolist.aad01b48107e5a29b1d0.png",
+    "static/media/todolist2.png": "/static/media/todolist2.da894692f6e9dffffbd8.png",
+    "static/media/snake1.png": "/static/media/snake1.9278d9167a56f51da4b8.png",
+    "static/media/todolist1.png": "/static/media/todolist1.3fd1a1c509ecaa01f15f.png",
+    "static/media/snake2.png": "/static/media/snake2.3241942b1476f7444c55.png",
+    "static/media/snake3.png": "/static/media/snake3.25607ec166752231948d.png",
+    "static/media/postmansvg.svg": "/static/media/postmansvg.648705b5f6469f0767a4736d07313ffe.svg",
+    "static/media/discord.svg": "/static/media/discord.27583b533952833679e4badca4e9e2a4.svg",
+    "static/media/linkdln.svg": "/static/media/linkdln.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "index.html": "/index.html",
+    "main.61badf34.css.map": "/static/css/main.61badf34.css.map",
+    "main.791fe949.js.map": "/static/js/main.791fe949.js.map"
   },
   "entrypoints": [
     "static/css/main.61badf34.css",
-    "static/js/main.df7dc816.js"
+    "static/js/main.791fe949.js"
   ]
 }
