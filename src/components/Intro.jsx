@@ -36,7 +36,7 @@ function Intro() {
             target="_blank"
             className="a"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1C18YogGxhLc1CUdsCMEdSHVaOzFOX39x/view?usp=sharing"
+            href="https://drive.google.com/file/d/1smxfdHgV_3oUU4-WzLfD54m_t8gJ5J7l/view?usp=share_link"
           >
             <button
               className="px-6 py-3 text-[16px] font-sans font-bold bg-black
