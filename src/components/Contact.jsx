@@ -51,7 +51,7 @@ function Contact() {
                         />
                     </div>
                     <div className="md:block pt-14">
-                        <h3 className="text-black text-center font-bold  text-[25px]">Visit Me..</h3>
+                        <h3 className="text-black text-center font-bold  text-[25px]">Locate Me..</h3>
                         <p className="text-[13.8px] text-center">Dome Pillar 2, Accra-Ghana</p>
                     </div>
                 </div>

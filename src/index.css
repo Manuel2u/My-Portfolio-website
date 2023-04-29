@@ -30,10 +30,10 @@ body {
   background: #000;
 }
 
-a:-webkit-any-link {
+/* a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
-}
+} */
 
 a{
   color: white;
