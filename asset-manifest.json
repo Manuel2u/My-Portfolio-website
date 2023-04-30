@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a67a184.css",
-    "main.js": "/static/js/main.791fe949.js",
-    "static/media/myPhoto.jpg": "/static/media/myPhoto.cf03828077518af0e220.jpg",
+    "main.css": "/static/css/main.6bb9f1e6.css",
+    "main.js": "/static/js/main.20256b36.js",
+    "static/media/physag1.png": "/static/media/physag1.2dcf9962f26cfb9bb09e.png",
+    "static/media/mlsa-img.png": "/static/media/mlsa-img.3f8028af578b9ca05433.png",
+    "static/media/physag2.png": "/static/media/physag2.33d66f958cc29fac174f.png",
     "static/media/GoogleKeepclone.jpg": "/static/media/GoogleKeepclone.560dc5a2f9ea28dfbb34.jpg",
     "static/media/todolist.png": "/static/media/todolist.aad01b48107e5a29b1d0.png",
     "static/media/todolist2.png": "/static/media/todolist2.da894692f6e9dffffbd8.png",
-    "static/media/snake1.png": "/static/media/snake1.9278d9167a56f51da4b8.png",
     "static/media/todolist1.png": "/static/media/todolist1.3fd1a1c509ecaa01f15f.png",
-    "static/media/snake2.png": "/static/media/snake2.3241942b1476f7444c55.png",
-    "static/media/snake3.png": "/static/media/snake3.25607ec166752231948d.png",
     "static/media/postmansvg.svg": "/static/media/postmansvg.648705b5f6469f0767a4736d07313ffe.svg",
     "static/media/discord.svg": "/static/media/discord.27583b533952833679e4badca4e9e2a4.svg",
     "static/media/linkdln.svg": "/static/media/linkdln.7defd339fd92d3e5fa034b24a5f10ed6.svg",
     "index.html": "/index.html",
-    "main.7a67a184.css.map": "/static/css/main.7a67a184.css.map",
-    "main.791fe949.js.map": "/static/js/main.791fe949.js.map"
+    "main.6bb9f1e6.css.map": "/static/css/main.6bb9f1e6.css.map",
+    "main.20256b36.js.map": "/static/js/main.20256b36.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a67a184.css",
-    "static/js/main.791fe949.js"
+    "static/css/main.6bb9f1e6.css",
+    "static/js/main.20256b36.js"
   ]
 }
