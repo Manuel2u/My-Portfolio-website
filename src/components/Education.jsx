@@ -19,7 +19,7 @@ function Education() {
           link="https://rishavchanda.github.io/images/book.gif"
           className="bg-white"
         />
-        <div className="md:pl-10 sm:pl-0 sm:w-[140%] my-14 sm:mx-[-45px] md:mx-5 md:w-[50%]">
+        <div className="md:pl-10 sm:pl-0  sm:w-80 my-14  md:mx-5 md:w-[50%]">
           <h3 className="text-primary text-2xl font-bold pb-4">School</h3>
           <h3 className="text-deep font-medium ">High School</h3>
           <p className="text-darktxt pb-3">
@@ -33,8 +33,8 @@ function Education() {
           <p className="text-darktxt">
             Currently I am a second year student of the University of Ghana
             Legon studying Physics and Computer Science. .I am a member of the
-            Huawei ICT Academy Club. I am an Alpha Microsoft Student Ambassador.
-            I was a Course Rep for Academic Writing 1, showed True Leadership
+            Huawei ICT Academy Club. I am a Beta Microsoft Student Ambassador.
+            I was a Course Rep for one of my courses {"(Academic Writing 1)"} , showed True Leadership
             Skills.
           </p>
         </div>

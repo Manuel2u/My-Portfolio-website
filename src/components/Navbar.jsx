@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-
+import { CiMenuFries } from "react-icons/ci";
 function Navbar() {
   const [click, setClick] = useState(false);
 
@@ -14,7 +13,7 @@ function Navbar() {
         <div className="px-2 flex justify-between  items-center w-full h-full">
           <div className="flex items-center pl-7">
             <h1 className="font-bold text-4xl font-dodoo hidden md:flex mr-4">
-              Manuel.Dev
+              Manuel_Dev
             </h1>
 
             <ul className="hidden mx-10 md:flex">
@@ -74,7 +73,7 @@ function Navbar() {
           </div>
 
           <div className="md:hidden pr-5">
-            <MenuIcon onClick={handleMobileMenu} className="w-5" />
+            <CiMenuFries size={40} onClick={handleMobileMenu} className="w-5" />
           </div>
         </div>
       </nav>
@@ -97,7 +96,7 @@ function Navbar() {
                 HOME
               </a>
             </li>
-            <li className="text-white">
+            <li className="text-black">
               <a
                 className="hover:text-primary visited:text-black"
                 href="#about"
@@ -105,7 +104,7 @@ function Navbar() {
                 ABOUT
               </a>
             </li>
-            <li className="text-white">
+            <li className="">
               <a
                 className="hover:text-primary visited:text-black"
                 href="#skills"
@@ -113,7 +112,7 @@ function Navbar() {
                 SKILLS
               </a>
             </li>
-            <li className="text-white">
+            <li className="">
               <a
                 className="hover:text-primary visited:text-black"
                 href="#projects"
@@ -121,7 +120,7 @@ function Navbar() {
                 PROJECTS
               </a>
             </li>
-            <li className="text-white">
+            <li className="">
               <a
                 className="hover:text-primary visited:text-black"
                 href="#contact"

@@ -54,9 +54,9 @@ function Project() {
           </div>
         </div>
 
-        <div className="md:flex md:mx-24 sm:mx-14 sm:pb-24 md:ml-16 sm:ml-[20px] md:pb-32">
+        <div className="md:flex sm:flex-col-reverse sm:flex md:flex-row md:mx-24 sm:mx-14 sm:pb-24 md:ml-16 sm:ml-[20px] md:pb-32">
           <div className="md:block mr-16">
-            <h3 className="text-deep text-left font-bold  text-3xl pb-5">
+            <h3 className="text-deep text-left font-bold sm:pt-6 md:pt-0 text-3xl pb-5">
               Todo Web App
             </h3>
             <p className="text-left text-secondary sm:w-[130%] md:w-[100%]">
@@ -94,11 +94,11 @@ function Project() {
             alternative="Project 1"
             className="md:ml-8 sm:ml-0"
           />
-          <div className="md:block pl-28 sm:pt-6 md:pt-0 ml-5">
+          <div className="md:block sm:pl-4 md:pl-28 sm:pt-6 md:pt-0 md:ml-5">
             <h3 className="text-deep text-left font-bold text-3xl pb-5">
               Physag registration system
             </h3>
-            <p className="text-left  text-secondary w-[70%]">
+            <p className="text-left text-secondary sm:w-[93%] md:w-[70%]">
               The Physage registration system is a web application created with
               ReactJS and nodeJS. It allows Physag executives to undertake the
               manual registration process for students in a more modern way.
